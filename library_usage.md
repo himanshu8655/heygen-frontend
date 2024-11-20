@@ -41,3 +41,16 @@ The Heygen Video Processing Client Library allows developers to integrate video 
 ### Usage Example
 1. Import the library and initialize it with a `userId`.
 2. Call the `uploadVideo` function and provide callbacks for status updates and error handling.
+
+## Environment Setup
+You need to define `REACT_APP_API_BASE_URL` in your `.env` file. This variable should point to the base URL of your API server.
+
+A `.env` file:
+```
+REACT_APP_API_BASE_URL=https://your-api-server.com
+```
+
+Ensure the environment file is correctly configured before running the application.
+
+---
+
