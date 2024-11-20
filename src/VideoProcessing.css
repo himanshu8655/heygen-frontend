@@ -1,0 +1,39 @@
+.video-processing-container {
+    padding: 20px;
+  }
+  
+  .video-status {
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .upload-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
